@@ -1,6 +1,7 @@
 .navigation {
   height: 6.0rem;
   width: 100%;
+
   a, span {
     display: inline;
     font-size: 1.6rem;
@@ -9,21 +10,24 @@
     line-height: 6.0rem;
     color: $fg-color;
   }
+
   a {
     &:hover,
     &:focus {
       color: $link-color
     }
   }
+
   .navigation-title {
     letter-spacing: 0.1rem;
   }
+
   .navigation-list {
     float: right;
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width: 768px) {
       position: absolute;
       top: 6.0rem;
       right: 0;
@@ -38,24 +42,33 @@
       border-bottom: solid 2px $alt-bg-color;
       transition: opacity 0.25s, max-height 0.15s linear;
     }
+
     .navigation-item {
       float: left;
       margin: 0;
       position: relative;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         float: none !important;
         text-align: center;
         a, span {
           line-height: 5.0rem;
         }
       }
+
       a, span {
         margin-left: 1.0rem;
         margin-right: 1.0rem;
       }
     }
+
+    .separator {
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
     .menu-separator {
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         border-top: 2px solid $fg-color;
         margin: 0 8.0rem;
         span {
@@ -64,10 +77,17 @@
       }
     }
   }
+
+  #dark-mode-toggle {
+    margin: 1.7rem 0;
+    font-size: 2.4rem;
+    line-height: inherit;
+  }
+
   #menu-toggle {
     display: none;
-    @media only screen and (max-width : 768px) {
-      &:checked + label {
+    @media only screen and (max-width: 768px) {
+      &:checked + label > i {
         color: $alt-bg-color;
       }
       &:checked + label + ul {
@@ -77,19 +97,22 @@
       }
     }
   }
+
   .menu-button {
     display: none;
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width: 768px) {
       display: block;
+      margin: 1.8rem 0;
       font-size: 2.4rem;
       font-weight: 400;
-      line-height: 6.0rem;
-      color: $fg-color;
-      cursor: pointer;
-      &:hover,
-      &:focus {
-        color: $link-color
-      }
+    }
+  }
+  i {
+    color: $fg-color;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: $link-color;
     }
   }
 }

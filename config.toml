@@ -13,10 +13,11 @@ pygmentsuseclasses = true
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "theqajedi"
 enableTwemoji = true
 colorscheme = "auto"
-##googleanalytics = ""
+rtl = false
+googleanalytics = "UA-178428815-1"
 
 hideFooter = false
 hideCredits = false
@@ -34,6 +35,9 @@ dateformat = "January 2, 2006"
     title = "The QA Jedi"
     avatarurl = "images/avatar.jpg"
     jedi = "images/qa_jedi.png"
+    favicon_32 = "images/favicon-32x32.png"
+    favicon_16 = "images/favicon-16x16.png"
+    touchicon = "images/apple-touch-icon.png"
     info = "On a quest to make the force stronger on the quality side."
     keywords = "blog,tester,qa,java"
 
