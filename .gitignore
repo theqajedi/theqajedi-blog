@@ -6,3 +6,7 @@ public/
 *.iml
 *.ipr
 .DS_Store
+
+demo/
+.hugo/*
+!.hugo/version
