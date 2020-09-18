@@ -1,4 +1,5 @@
-title = "luizdepra"
+baseURL = "https://theqajedi.in/"
+title = "The QA Jedi"
 
 theme = "coder"
 
@@ -7,12 +8,21 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
-
+pygmentsstyle = "b2"
 pygmentsuseclasses = true
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleanalytics = "UA-68141818-1"
+disqusShortname = "yourdiscussshortname"
+enableTwemoji = true
+colorscheme = "auto"
+##googleanalytics = ""
+
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+since = 2020
+dateformat = "January 2, 2006"
 
 [taxonomies]
     category = "categories"
@@ -20,47 +30,41 @@ googleanalytics = "UA-68141818-1"
     tag = "tags"
 
 [params]
-    author = "Luiz de Prá"
+    author = "Abilash Margapuram"
     avatarurl = "images/avatar.jpg"
-    info = "Software and Game Developer"
-    description = "Luiz de Prá's personal website and blog"
-    keywords = "blog,developer,personal,python,c++,go,rust"
-
-    colorscheme = "dark"
+    info = "On a quest to make the force stronger on the quality side."
+    keywords = "blog,tester,qa,java"
 
     custom_css = ["css/custom.css", "css/syntax.css"]
 
-[params.utteranc]
-    repo = "luizdepra/luizdepra.com"
-    issueTerm = "pathname"
-    theme = "preferred-color-scheme"
+[[params.social]]
+name = "Blog"
+icon = "fab fa-blogger-b"
+weight = 1
+url = "/posts"
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+weight = 1
+url = "https://www.linkedin.com/in/abilash-margapuram"
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+weight = 1
+url = "https://github.com/theqajedi"
+[[params.social]]
+name = "Email"
+icon = "far fa-envelope"
+weight = 1
+url = "mailto:abilash31@yahoo.co.in"
 
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/luizdepra/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 2
-    url = "https://twitter.com/luizdepra/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
-    url = "https://www.linkedin.com/in/luizdepra/"
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss-square"
-    weight = 4
-    url = "/index.xml"
+[languages]
+[languages.en]
+languagename = "English"
 
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+[languages.en.menu]
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
