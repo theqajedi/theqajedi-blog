@@ -64,11 +64,15 @@
 }
 
 .avatar img{
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.avatar img, .jedi img{
   width: 20rem;
   height: auto;
-  border-radius: 50%;
   @media only screen and (max-width : 768px) {
-    width: 10rem;
+    width: 13rem;
   }
 }
 

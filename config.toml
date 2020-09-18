@@ -31,7 +31,9 @@ dateformat = "January 2, 2006"
 
 [params]
     author = "Abilash Margapuram"
+    title = "The QA Jedi"
     avatarurl = "images/avatar.jpg"
+    jedi = "images/qa_jedi.png"
     info = "On a quest to make the force stronger on the quality side."
     keywords = "blog,tester,qa,java"
 
