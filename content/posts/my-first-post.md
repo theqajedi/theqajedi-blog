@@ -160,16 +160,19 @@ user-group, etc. Or performed during certain releases to production. The definit
 it's totally fine as long as the team is on a common consensus.
 
 ### Active retrospection
-Agile already facilitates retrospection, make use of them to discuss the root causes of bugs or bottlenecks or delays. Try to develop an action plan
+Agile already facilitates retrospection, make use of them to discuss the root causes of not only impediments but also bugs, bottlenecks or delays. Try to develop an action plan
 and work on them. And update the team with the progress of the action plans.
 
+---------
 
-This was just a limited view of QA things from my perspective, I can be completely wrong as well. Then there's more room for reflecting and improving
-myself. But also I'm open to the wisdom of any kind, shape, or size. There is something new to learn every day, so keep your eyes, ears, and brain open but don't forget to filter out nonsense, which is abundant. 🙂
+To summarise, everyone in the team should don the hat of QA and ascertain that quality is **everyone’s** responsibility. 
+
+This was just a limited view of QA things from my perspective, I can be completely wrong as well. Then there's more room for reflecting and improving.
+But also I'm open to the wisdom of any kind, shape, or size. There is something new to learn every day, so keep your eyes, ears, and brain open but don't forget to filter out nonsense, which is abundant. 🙂
 
 If you didn't already notice, the theme switching is broken ATM on the site. I wonder if only QA's were the ones who noticed it already since they are used to trying all the possible flows or functions. Anyway, I'm no FE expert so will soon tackle it when I find some time.
 
-Until next time, may the force be with you'll.  
-Sorry for the long first post, here's a 🥔!
+Until next time, may the force be with ya'll.  
+Thank you and sorry for the long first post, here's a 🥔!
 
 ---
